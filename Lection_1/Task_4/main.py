@@ -1,6 +1,7 @@
-a = float(input("Enter the coefficient a: "))
-b = float(input("Enter the coefficient b: "))
-c = float(input("Enter the coefficient c: "))
+print("Hello! Enter the coefficients:")
+a = float(input("a: "))
+b = float(input("b: "))
+c = float(input("c: "))
 
 discriminant = b**2 - 4*a*c
 
