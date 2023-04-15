@@ -1,8 +1,8 @@
 def count_elements():
-    n = int(input("Enter elements count: "))
+    elements_count = int(input("Enter elements count: "))
     elements = []
-    for i in range(n):
-        element = input(f"Enter element {i+1}: ")
+    for index in range(elements_count):
+        element = input(f"Enter element {index+1}: ")
         elements.append(element)
 
     find_element = input("Enter an element to count its quantity: ")
